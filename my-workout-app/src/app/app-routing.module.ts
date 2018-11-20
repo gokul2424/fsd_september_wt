@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import {WorkoutComponent} from './Workout/workout.component'
+import {WorkoutComponent} from './workout/workout.component'
 import {TrackWorkoutComponent} from './track-workout/track-workout.component'
 import {AddCategoryComponent} from './add-category/add-category.component'
 import {AddWorkoutComponent} from './add-workout/add-workout.component'
