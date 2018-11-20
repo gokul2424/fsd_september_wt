@@ -1,0 +1,23 @@
+{
+   "workoutList": [
+      {
+         "title": "Morning run for 5 mins",
+         "note": "abc",
+         "calPerMin": "50",
+         "category": "Jogging"
+      },
+      {
+         "title": "Boxing Practice for 10 min",
+         "note": "xyz",
+         "calPerMin": "100",
+         "category": "Cardio"
+      }
+      ,
+      {
+         "title": "Chest and Tricep Workout for 10 min",
+         "note": "blank",
+         "calPerMin": "",
+         "category": "Aerobics"
+      }
+   ]
+}

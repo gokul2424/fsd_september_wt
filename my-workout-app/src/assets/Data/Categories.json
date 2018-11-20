@@ -1,0 +1,32 @@
+{
+    "categoriesList" : [
+        {
+            "categoryID": 1,
+            "categoryDesc": "Jogging"
+        },
+        {
+            "categoryID": 2,
+            "categoryDesc": "Sprint"
+        },
+        
+        {
+            "categoryID": 3,
+            "categoryDesc": "Slow Walk"
+        },
+        
+        {
+            "categoryID": 4,
+            "categoryDesc": "Cardio"
+        },
+        
+        {
+            "categoryID": 5,
+            "categoryDesc": "Aerobics"
+        },
+        
+        {
+            "categoryID": 6,
+            "categoryDesc": "Yoga"
+        }
+    ]
+}
