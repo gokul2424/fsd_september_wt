@@ -11,7 +11,10 @@ import { EndWorkoutComponent } from './end-workout/end-workout.component';
 import { TrackWorkoutComponent } from './track-workout/track-workout.component';
 import { WorkoutComponent } from './workout/workout.component';
 import { AppRoutingModule } from './app-routing.module';
-
+import { BaseService } from './Services/BaseService';
+import { CategoryService } from './Services/CategoryService';
+import { WorkoutService } from './Services/WorkoutService';
+import { HttpClientModule }    from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,9 +28,9 @@ import { AppRoutingModule } from './app-routing.module';
     WorkoutComponent
   ],
   imports: [
-    BrowserModule, AppRoutingModule
+    BrowserModule, AppRoutingModule, HttpClientModule
   ],
-  providers: [],
+  providers: [BaseService, CategoryService, WorkoutService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

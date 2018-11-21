@@ -1,3 +1,16 @@
-<p>
-  workout works!
-</p>
+
+<div >
+<input type="text" placeholder="Search" />
+  <table>
+   <tr *ngFor="let workout of workoutDataArr">
+    <label>{{workout.title}}</label>
+    <br/>
+    <input type="button" value="Edit">    
+    <input type="button" value="Delete">    
+    <input type="button" value="Start">    
+    <input type="button" value="End">
+   </tr>
+  </table>
+
+
+</div>
